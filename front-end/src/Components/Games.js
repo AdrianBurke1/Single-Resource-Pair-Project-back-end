@@ -19,8 +19,8 @@ function Games() {
           <thead>
             <tr>
               <th></th>
-              <th>Take me there</th>
-              <th>See this Game</th>
+              <th className="games-txt">Take me there</th>
+              <th className="games-txt">See this Game</th>
             </tr>
           </thead>
           <tbody>
@@ -35,3 +35,15 @@ function Games() {
 }
 
 export default Games;
+
+
+
+
+
+
+
+
+
+
+
+

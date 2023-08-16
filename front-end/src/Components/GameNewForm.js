@@ -45,7 +45,7 @@ function GameNewForm() {
         <div className="New">
           <form onSubmit={handleSubmit}>
             <label htmlFor="name">Name:</label>
-            <input
+            <input 
               id="name"
               value={game.name}
               type="text"
@@ -54,7 +54,7 @@ function GameNewForm() {
               required
             />
             <label htmlFor="release_date">Release Date:</label>
-            <input
+            <input 
               id="release_date"
               type="text"
               required

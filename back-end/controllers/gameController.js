@@ -13,7 +13,7 @@ const { checkBoolean, checkName} = require("../validations/checkGames.js");
 // INDEX
 games.get("/", async (req, res) => {
     const allGames = await getAllGames();
-    // console.log(allGames)
+    console.log(allGames)
     if (allGames[0]) {
       res.status(200).json(allGames);
     } else {
